@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Sora&display=swap");
+
+body {
+  background-image: url("https://www.reshot.com/preview-assets/illustrations/ZG68LKR5B9/geometric-background-ZG68LKR5B9-w1600.jpg");
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.circle {
+  background-color: #0004B6;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  line-height: 0;
+  display: flex;
+  margin-right: 0px;
+}
+.logo {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ff7701;
+  font-family: "Sora", sans-serif;
+  font-size: 21px;
+  padding-top: 47px;
+  padding-bottom: 15px;
+  color: #fff6ff;
+  margin-bottom: 20px;
+  border-bottom: double 10px #fff6ff;
+  align-items: center;
+  height: 30px;
+  padding-left:20px;
+  padding-right: 20px;
+
+}
+
+
+
+h1 {
+  font-size: 72px;
+  color: #F2D5F4;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+}
+
+.container {
+  background-color: #FFF6FF;
+  height: 500px;
+  display: inline;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-right: 0px;
+  width: auto;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  width: 475px;
+  margin: auto;
+}
+
+
+.home:hover,
+.services:hover,
+.about:hover,
+.blog:hover,
+.contact:hover,
+.loginnav:hover {
+  cursor: pointer;
+  color: #0004b6;
+}
+
+p,
+li,
+label,
+button {
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  color: #ff7701;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff6ff;
+  justify-content: center;
+  box-sizing: content-box;
+  height: 375px;
+  width: 375px;
+  border-radius: 50%;
+  border: double 20px #ff7701;
+  align-items: center;
+}
+
+.login-formcontainer {
+  display: flex;
+  justify-content: center;
+}
+.content: {
+  margin: 0;
+  padding: 0;
+}
+.login {
+  background-color: #4646FF;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  color: #ff7900;
+  font-weight: bold;
+  border: double 15px #ff7900;
+}
+
+.facebook:hover,
+.instagram:hover {
+  cursor: pointer;
+}
+
+.usernameone,
+.usernametwo,
+.passwordone,
+.passwordtwo {
+  margin: 2.5px;
+}
+
+.login-form .content {
+  padding: 0px;
+  text-align: center;
+}
+.login-form .input-field {
+  padding: 12px 5px;
+}
+.login-form .input-field input {
+  font-size: 16px;
+  display: block;
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border-bottom: 1px solid #747474;
+  outline: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background-color: #FFF6FF;
+  
+}
+
+
+.login-form a.link {
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+  color: #ff7900;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.login-form .action {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+.login-form .action button {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+  background: #ff7701;
+  color: #fff6ff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  letter-spacing: 0.2px;
+  outline: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin: 10px;
+}
+.login-form .action button:hover {
+  background: #d8d8d8;
+}
+.login-form .action button:nth-child(2) {
+  background: #ff7701;
+  color: #fff6ff;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 4px;
+}
+.login-form .action button:nth-child(2):hover {
+  background: #3c4d6d;
